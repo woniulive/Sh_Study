@@ -7,3 +7,15 @@ echo "Hello "World""
 #below should be correct
 echo "Hello \"World\""
 
+#it will display all files
+echo show all files:
+echo *
+#it will display * character
+echo show \* character:
+echo "*"
+#below will display
+#A quote is ",backslash is \,backtick is `
+#A few spaces are    and dollar is $, $x is 5
+echo "A quote is \",backslash is \\,backtick is \`"
+echo "A few spaces are   ;dollar is \$,\$x is ${x}"
+
