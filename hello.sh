@@ -1,4 +1,7 @@
 #!/bin/bash
 
-echo "hello world!"
+echo "hello $USER"
+echo "hey i am "$USER" and will"
+echo "running process List"
+ps
 
