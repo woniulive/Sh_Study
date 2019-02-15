@@ -8,7 +8,10 @@ do
         gday)          echo Australian ;;
         bonjour)       echo French     ;;
         "guten tag")   echo German     ;;
-        *)             echo Unknown Language: $f;;
+#change $f to $i
+#if you type i=okkkk,export i,./while3a.sh something
+#you can get output of i
+        *)             echo Unknown Language: $i;;
     esac
 #transfer data from myfile to while read loops
 done < myfile
