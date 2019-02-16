@@ -1,5 +1,5 @@
 #!/bin/bash
-#bash var3.sh hello world earth
+#bash var3.sh hello world earth can get the answer
 echo "I was called with $# parameters"
 echo "My name is $0"
 echo "My name is `basename $0`"
